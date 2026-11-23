@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3840" height="2160" viewBox="0 0 1920 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Zelk / Local utilities</title>
+  <desc id="desc">The Zelk wordmark in white on graphite. On the right, a blue diagonal follows the central cut of the Zelk symbol against a drafting grid.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#34383e" stroke-width="1"/>
+    </pattern>
+    <path id="mark" d="M40 104V88A48 48 0 0 1 88 40H200A16 16 0 0 1 216 56V80L180 116H124L168 72H88A16 16 0 0 0 72 88V104Z M216 152V168A48 48 0 0 1 168 216H56A16 16 0 0 1 40 200V176L76 140H132L88 184H168A16 16 0 0 0 184 168V152Z"/>
+    <path id="register" d="M-9 0H9M0-9V9" stroke="#919ba9" fill="none"/>
+  </defs>
+  <rect width="1920" height="1080" fill="#141618"/>
+  <g stroke="#42474e" fill="none"><path d="M96 106H1824M96 968H1824"/></g>
+  <g font-family="Consolas, monospace" font-size="17" letter-spacing="3" fill="#b4bcc6">
+    <text x="96" y="81">ZELK  /  IDENTITY SERIES</text>
+    <text x="1824" y="81" text-anchor="end">PLATE 01</text>
+    <text x="96" y="1014">GENERATE   /   VERIFY   /   CONVERT</text>
+    <text x="1824" y="1014" text-anchor="end">01 — 01</text>
+  </g>
+  <rect x="96" y="397" width="42" height="5" fill="#93b4ff"/>
+  <text x="84" y="599" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="202" letter-spacing="-12" fill="#f4f5f1">Zelk</text>
+  <text x="101" y="677" font-family="Consolas, monospace" font-size="28" fill="#b4bcc6">Local security tools.</text>
+  <rect x="980" y="180" width="760" height="720" fill="url(#grid)"/>
+  <g fill="none" stroke="#4c535c" stroke-dasharray="4 9">
+    <path d="M1020 320H1700M1020 760H1700M1140 220V860M1580 220V860"/>
+    <circle cx="1360" cy="540" r="312"/>
+  </g>
+  <path d="M1040 860L1680 220" stroke="#7193d7" stroke-width="2"/>
+  <use href="#mark" transform="translate(1040 220) scale(2.5)" fill="#f4f5f1"/>
+  <g><use href="#register" x="980" y="180"/><use href="#register" x="1740" y="180"/><use href="#register" x="980" y="900"/><use href="#register" x="1740" y="900"/></g>
+</svg>
