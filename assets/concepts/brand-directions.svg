@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" font-family="Arial, sans-serif" fill="#fafafa">
+ <title>Zelk — three brand directions in context</title>
+ <defs>
+  <!-- The detached lower stroke repeats the diagonal cut at favicon size. -->
+  <path id="k" d="M1 0h5v16l8-9h6L8 20l-2 2v6H1zm10 19 10 9h-7l-6-6z"/>
+  <path id="word" d="M0 8h17v4L6 24h11v4H0v-4l11-12H0zm39 12H23q1 5 7 5 4 0 7-2v4q-3 2-8 2-11 0-11-11 0-11 11-11 10 0 10 11zm-16-4h11q-1-5-5-5-5 0-6 5zM43 0h5v28h-5z"/>
+  <path id="fit" d="M1 4h12v6l5 3v6l-5-3v10H1zM16 4h13v22H16v-5l5 3V11l-5-3z"/>
+  <path id="master" d="M40 104V88A48 48 0 0 1 88 40H200A16 16 0 0 1 216 56V80L180 116H124L168 72H88A16 16 0 0 0 72 88V104Z M216 152V168A48 48 0 0 1 168 216H56A16 16 0 0 1 40 200V176L76 140H132L88 184H168A16 16 0 0 0 184 168V152Z"/>
+  <g id="card">
+   <rect width="360" height="265" rx="10" fill="#171717" stroke="#393939"/>
+   <path d="M16 56h328" stroke="#393939"/>
+   <text x="285" y="34" fill="#b6b6b6" font-size="11">English ⌄</text>
+   <text x="18" y="106" font-size="23" font-weight="700">A strong password</text><text x="18" y="133" font-size="23" font-weight="700">in one click.</text>
+   <text x="18" y="166" fill="#b8b8b8" font-size="13">Create a password right on your device.</text>
+   <rect x="18" y="193" width="150" height="39" rx="5" fill="#eee"/><text x="31" y="217" fill="#171717" font-size="13" font-weight="bold">Generate password</text>
+   <text x="0" y="307" fill="#b3b3b3" font-family="monospace" font-size="12">FAVICON / 16 PX</text>
+   <rect x="132" y="286" width="32" height="32" rx="6" fill="#171717" stroke="#393939"/>
+  </g>
+ </defs>
+ <rect width="1200" height="540" fill="#101010"/>
+ <text x="32" y="43" fill="#a8c8cd" font-family="monospace" font-size="13">ZELK  /  IDENTITY STUDIES</text>
+ <text x="32" y="91" font-size="36" font-weight="bold">Three directions, one toolkit.</text>
+ <g transform="translate(32 178)"><text y="-19" font-size="18">01   /   Cut wordmark</text><use href="#card"/><g transform="translate(18 15) scale(.98)"><use href="#word"/><use href="#k" x="51"/></g><use href="#k" transform="translate(142 294) scale(.57)"/></g>
+ <g transform="translate(420 178)"><text y="-19" font-size="18">02   /   Matching pieces</text><use href="#card"/><use href="#fit" transform="translate(18 12)"/><text x="57" y="38" font-size="26" font-weight="bold">Zelk</text><use href="#fit" transform="translate(140 294) scale(.54)"/></g>
+ <g transform="translate(808 178)"><text y="-19" font-size="18">03   /   Quiet signature</text><use href="#card"/><use href="#master" transform="translate(18 18) scale(.082)"/><text x="47" y="36" font-size="21" font-weight="600">Zelk</text><use href="#master" transform="translate(140 294) scale(.0625)"/></g>
+</svg>
